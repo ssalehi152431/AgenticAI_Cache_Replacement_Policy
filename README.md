@@ -17,23 +17,6 @@
 ![C++](https://img.shields.io/badge/C++-76%25-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
-
----
-
-## 📘 Table of Contents
-1. [Overview](#overview)
-2. [Motivation](#motivation)
-3. [Project Structure](#project-structure)
-4. [Setup & Installation](#setup--installation)
-5. [Usage](#usage)
-6. [Methodology](#methodology)
-7. [Results & Performance](#results--performance)
-8. [Contribution & Innovation](#contribution--innovation)
-9. [Future Work](#future-work)
-10. [License](#license)
-11. [Acknowledgements](#acknowledgements)
-12. [Contact](#contact)
-
 ---
 
 ## 🔍 Overview
