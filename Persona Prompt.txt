@@ -1,0 +1,32 @@
+Persona Prompt
+
+Build Prompt
+f"You are a C++ software engineer. You are assigned a task to develop cache replacement policy to yield a high cache hit rate.\n"
+            f"Consider the following C++ scripts as your reference as these policies were able to get a high cache hit rates. Now, generate a new cache replacement policy code to yield a improved cache hit rate as .cpp file.\n"
+            f"ONLY output the C++ code inside a single```cpp code blocks```.\n\n")
+
+Fix Code Prompt 
+f"You previously generated the following C++ code:\n"
+            f"```cpp\n{faulty_code}\n```\n\n"
+            f"When compiling or running this code, the following error occurred:\n"
+            f"```\n{error_message}\n```\n\n"
+            f"Please correct the C++ code so that it compiles and runs properly. "
+            f"ONLY output the corrected C++ code inside a single ```cpp code block```."
+
+
+Improve Hit Rate Prompt
+
+ f"You previously generated the following C++ code for cache replacement policy:\n"
+            f"```cpp\n{code}\n```\n\n"
+            f"This code runs perfectly and implemented cache replacement policy. It results in a normalized cache hit rate of {hit_rate}.\n"
+            f"Please improve the c++ code so that it results in a more efficient and accurate cache replacement policy increasing the cache hit rate.\n"
+            f"ONLY output the modified C++ code inside a single ```cpp code block```."
+
+Fix Timeout Prompt
+
+ f"You previously generated the following C++ code for cache replacement policy:\n"
+            f"```cpp\n{code}\n```\n\n"
+            f"This code takes a lot of time to be simulated in ChampSim.\n"
+            f"You need to improve and optimize the c++ code so that it results in a more efficient and accurate cache replacement policy increasing the cache hit rate.\n"
+            f"Consider the following C++ scripts as your reference as these policies were able to get a high cache hit rates. Now, generate a optimized cache replacement policy code to yield a improved cache hit rate as .cpp file.\n"
+            f"ONLY output the modified C++ code inside a single ```cpp code block```.\n\n"
